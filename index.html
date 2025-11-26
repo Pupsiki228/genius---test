@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Modern Bakery</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
@@ -11,44 +12,45 @@
         <a href="">
           <img src="./images/logo.svg" alt="Logo of Modern Bakery" />
         </a>
-
         <ul>
-          <li><a href="#">Our Traditions</a></li>
-          <li><a href="#">Chief cooks</a></li>
-          <li><a href="#">Formats</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li><a class="link" href="#tradition-section">Our Traditions</a></li>
+          <li><a class="link" href="#cookers-section">Chief cooks</a></li>
+          <li><a class="link" href="#formats-section">Formats</a></li>
+          <li><a class="link" href="#contact-section">Contacts</a></li>
         </ul>
       </nav>
-      <button type="button">Make a call</button>
+      <button class="button" type="button">Make a call</button>
     </header>
     <main>
       <section>
-        <h1>Modern Bakery</h1>
+        <h1 class="hero-title"><span class="accent">Modern</span> Bakery</h1>
       </section>
-      <section>
-        <ul>
+      <section id="tradition-section">
+        <ul class="advantages-list">
           <li>Great damand on the market</li>
           <li>Budget-friendly formats</li>
           <li>Experienced management team</li>
         </ul>
-        <h2>New Fromat of Traditions</h2>
+        <h2 class="section-title">New Fromat of Traditions</h2>
         <p>
-          <span>shop bakery</span> - bakery that has taken all the best, and
-          perserved the taste of traditional pastries and the naturalness of the
-          ingredians.
+          <span class="accent">shop bakery</span> - bakery that has taken all
+          the best, and perserved the taste of traditional pastries and the
+          naturalness of the ingredians.
         </p>
         <p>
           We operate like the most well-known chains -
-          <span>your order is ready in five minutes</span>. And our bakeries
-          also features stylish design and excellent service!
+          <span class="accent">your order is ready in five minutes</span>. And
+          our bakeries also features stylish design and excellent service!
         </p>
         <img
-          src="./images/Mask group.jpg"
+          src="./images/baker-man.jpg"
           alt="Baker with smile look at loaves"
         />
       </section>
-      <section>
-        <h2>Our best cheif-cooks</h2>
+      <section id="cookers-section">
+        <h2 class="section-title">
+          Our best <span class="accent">cheif-cooks</span>
+        </h2>
         <ul>
           <li>
             <article>
@@ -74,8 +76,8 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Formats</h2>
+      <section id="formats-section">
+        <h2 class="section-title">Formats</h2>
         <ul>
           <li>
             <article>
@@ -94,8 +96,16 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Join to our bakery chain</h2>
+      <section id="contact-section">
+        <h2 class="section-title">Join to our bakery chain</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2964.9264857234207!2d-87.84391835662237!3d42.00185323902872!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fc9c30914cb2d%3A0x8b2f7b4de797db77!2s717%20S%20Lincoln%20Ave%2C%20Park%20Ridge%2C%20IL%2060068!5e0!3m2!1sru!2sus!4v1764112056321!5m2!1sru!2sus"
+          width="603"
+          height="595"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </section>
     </main>
     <footer>
@@ -104,10 +114,10 @@
           <img src="./images/logo.svg" alt="Logo of Modern Bakery" />
         </a>
         <ul>
-          <li><a href="#">Our Traditions</a></li>
-          <li><a href="#">Chief cooks</a></li>
-          <li><a href="#">Formats</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li><a class="link" href="#tradition-section">Our Traditions</a></li>
+          <li><a class="link" href="#cookers-section">Chief cooks</a></li>
+          <li><a class="link" href="#formats-section">Formats</a></li>
+          <li><a class="link" href="#contact-section">Contacts</a></li>
         </ul>
       </nav>
       <address>
@@ -133,7 +143,7 @@
           </li>
         </ul>
         <a href="#" target="blank">Private Policy</a>
-        <p>2022 Protected data</p>
+        <p>&copy; 2022 Protected data</p>
       </address>
     </footer>
   </body>
